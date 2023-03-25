@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<html lang="pt-br">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contato - Barbearia Os Vikings</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon/mustache.png">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	</head>
+
+
+	<body>
+
+		<!-- cabeçalho -->
+		<header>
+
+			<div class="caixaCentro">
+
+				<h1> <img src="img/vikings logo.png" alt="logo da barberc@l" title="Logo principal"> </h1>
+
+					<nav>
+
+						<ul>
+							<li> <a href="index.html">Home</a> </li>
+							<li> <a href="produtos.html">Produtos</a> </li>
+							<li> <a href="contato.html">Contato</a> </li> 
+						</ul>
+
+					</nav>
+
+			</div>
+
+		</header>
+
+
+		<!-- corpo principal -->
+		<main id="principal-contato">
+			
+			<!-- formulário -->
+			<form>
+
+				<!-- parte 1 -->
+				<label for="nome">Nome Completo</label>
+				<input type="text" name="nome" maxlength="30" id="nome" class="input-padrao" required>
+
+				<label for="email">E-mail</label>
+				<input type="email" name="email" maxlength="50" id="email" class="input-padrao" required placeholder="seu.email@dominio.com">
+
+				<label for="fone">Telefone (COM DDD)</label>
+				<input type="tel" name="fone" id="fone" class="input-padrao" required placeholder="(xx) x xxxx-xxxx">
+
+				<label for="msg">Mensagem</label>
+				<textarea id="msg" cols="67" rows="14"></textarea>
+
+
+				<!-- parte 2 -->
+				<fieldset>
+
+					<legend>
+						Como podemos entrar em contato?
+					</legend>
+				
+					<label for="radio-email"><input type="radio" value="Email" name="contato" id="radio-email">Email</label>
+					
+					<label for="radio-fone"><input type="radio" value="Telefone" name="contato" id="radio-fone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" value="Whatsapp" name="contato" id="radio-whatsapp" checked> Whatsapp</label>
+
+				</fieldset>
+
+
+				<!-- parte 3 -->
+				<fieldset>
+
+					<legend>
+						Qual seria o melhor horário para o seu atendimento
+					</legend>
+
+					<select>
+
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+
+					</select>
+
+				</fieldset>
+
+
+				<!-- novidades -->
+				<label>
+
+					<input type="checkbox" class="checkbox" name="novidades" checked>Gostaria de receber as novidades por E-mail?
+
+				</label>
+
+
+				<!-- submit -->
+				<input type="submit" name="input" value="Enviar Formulário" class="enviar">
+
+			</form>
+
+			<table>
+				<thead>
+					<tr>
+						<th>DIA</th>
+						<th>HORÁRIO</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>SEGUNDA</td>
+						<td>8H ÀS 20H</td>
+					</tr>
+					<tr>
+						<td>QUARTA</td>
+						<td>8H ÀS 20H</td>
+					</tr>
+					<tr>
+						<td>SEXTA</td>
+						<td>8H ÀS 20H</td>
+					</tr>
+				</tbody>
+
+			</table>
+
+		</main>
+
+
+		<!-- rodapé -->
+		<footer>
+
+			<img src="img/vikingsLogoBranco.png" alt="logo barbearia" title="logo barbearia os vikings">
+
+			<p class="copyrigth">
+				&copy; Copyrigth Os Vikings Barber - 2022
+			</p>
+
+		</footer>
+
+	</body>
+
+</html>
